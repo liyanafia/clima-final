@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100px;
+    background-image:url(../images/just-wake.jpg);
+      display: flex;
+      flex-direction: column;
+      min-height: 120vh;
+
+}
+
+.weather-forcast{
+background-image: cover;
+
+}
+
+#search-form {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temp {
+    text-align: center;
+}
+
+#temp #temp-unit {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+#temp #temp-value {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+
+#climate {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+#location {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+
+#temp-icon {
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+
+
+main {
+
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #6b778d;
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+
+}
+
+.highlight {
+  color:white;
+  font-weight:bold;
+}
+
+
+#search-button {
+    color: #494949;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid #494949;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+}
+
+#search-button:hover {
+
+    color: #ffffff;
+    background: #ff6768;
+    border-color: #ff6768;
+    transition: all 0.4s ease 0s;
+
+
+
+}
+
+#search-input {
+    width: 260px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid #ff6768;
+    color: white;
+    outline: none;
+    background: none;
+}
+
+input {
+    border: none;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+
+#h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+
+#title {
+
+   background-size: cover;
+    color: white;
+}
+
+#this {
+    padding: 3% 15%;
+}
+
+/* Navigation bar */
+#big {
+    padding: 0 0 2.5rem !important;
+}
+
+#r {
+    padding: 0 0 2.5rem !important;
+}
+
+
+.navbar-brand {
+    font-family: 'Ubuntu' !important;
+    font-size: 2.5rem !important;
+    margin-right: -16px !important;
+}
+
+.navbar {
+    padding-bottom: 3.5rem !important;
+}
+
+.nav-item {
+    padding: 0 18px !important;
+
+}
+
+.nav-link {
+    font-size: 1.2rem !important;
+    font-family: 'Montserrat-light' !important;
+}
+
+.Download-Button {
+    margin: 3% 5% 3% 0;
+}
+
+/* Title Image */
+
+/* Features Section */
+#features {
+    padding: 7% 15%;
+
+}
+
+.feature-box {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem !important;
+    font-family: 'Montserrat' !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+
+.feature-text {
+    color: #8f8f8f !important;
+    padding: 0 5% !important;
+    text-align: center !important;
+
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.title-image {
+    position: relative !important;
+    /* Declared position allows for location changes */
+    top: -60px !important;
+    /* Moves the image 2px closer to the top of the page */
+}
+.title-image{
+   position: static;
+
+}
+
+.bottom-container {
+
+    padding: 60px 0px 0px -20px;
+    margin-top:42px;
+    text-align: center;
+
+}
+
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eaf6f6;
+}
+
+
+.copyrightmsg {
+    color: #11999e;
+    font-size: 1rem;
+    padding: 20px 0;
+        font-weight: bold;
+}
+.quote input, .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+.regform{
+         width:800px;
+   background-color:rgb(0,0,0,0.6);
+   margin:auto;
+   color:#FFFFFF;
+   padding:10px 0px 10px 0px;
+   text-align:center;
+   border-radius:15px 15px 0px 0px ;
+   }
+
+   .box{
+         background-color:rgb(0,0,0,0.5);
+      width:800px;
+      margin:auto;}
+
+     form{
+         padding:10px;
+
+     }
+
+     #name{
+          width:100%;
+       height:100px;
+
+       }
+     .name{
+               margin-left:25px;
+      margin-top:30px;
+      width: 125px;
+               color: white;
+               font-size: 18px;
+               font-weight: 700;}
+   .firstname{
+                      position: relative;
+          left:200px;
+          top:-37px;
+          line-height: 40px;
+          border-radius: 6px;
+          padding: 0 22px;
+          font-size: 16px;
+
+          }
+   .lastname{
+                position: relative;
+          left:417px;
+          top:-80px;
+          line-height: 40px;
+          border-radius: 6px;
+          padding: 0 22px;
+          font-size: 16px;
+          color:#555;
+                     }
+    .firstlabel{
+               position:relative;
+               color:#E5E5E5;
+         text-transform: capitalize;
+      font-size: 14px;
+      left:203px;
+      top:-45px;
+      }
+   .lastlabel{
+               position:relative;
+      color:#E5E5E5;
+      text-transform:capitalize;
+      font-size:14px;
+      left:492px;
+      top:-76px;
+        }
+
+        .email{
+              position:relative;
+        left:200px;
+           top:-37px;
+           line-height: 40px;
+           width:480px;
+              border-radius: 6px;
+           padding: 0 22px;
+           font-size: 16px;
+           color: #555;
+    }
+    .message{
+           position:relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+     width:480px;
+        border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+     color: #555;  }
+.button1{
+        background-color:#3BAF9F;
+     display:block;
+     margin:20px 0px 0px 20px;
+     text-align:center;
+     border-radius:12px;
+     border:2px solid #366473;
+     padding:14px 110px;
+     outline:none;
+     color:white;
+     cursor:pointer;
+     transition:0.25px;
+    }
+   button:hover{
+                background-color:#5390F5;
+      }
+
+    .bottom-container-1{
+      padding: 40px 0 20px ;
+      text-align: center;
+    font-weight: bold;
+    color:white;
+
+    }
+
+.wrong{
+color:#98acf8;
+
+}
+.recently-searched{
+
+    width: 60%;
+
+   margin-left: 20px;
+   color: #3BAF9F;
+
+    float: left !important;
+}
+
+.BUTTON_MCS {
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 13px;
+    background-color: #E4E9EF;
+    -webkit-box-shadow: 1px 1px 20px 0 #FFFFFF;
+    -moz-box-shadow: 1px 1px 20px 0 #FFFFFF;
+
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: auto ;
+}
+
+.BUTTON_MCS:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.feedback{
+    color:#494949;
+    text-align: center;
+    padding: 20% 20% 20px;
+}
+
+.col-8{
+  font-size: 1.2rem !important;
+  font-family: 'Times New Roman' !important;
+  padding:20px;
+  margin-top:30px;
+  background-color:rgb(0,0,0,0.3);
+  border-radius:15px;
+  border-style: solid;
+  border-color: #FFFF99 ;
+}
+
+@media only screen and (max-width: 768px){
+  .regform{
+    width:100%;
+  }
+}
